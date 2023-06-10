@@ -20,18 +20,18 @@ public class LoginTests extends BaseTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://testpro.io/";
+        String url = "https://qa.koel.app/";
         driver.get(url);
         // email
         WebElement emailInput = driver.findElement(By.xpath("//input[@type='email']"));
         emailInput.click();
         emailInput.clear();
-        emailInput.sendKeys("demo@class.com");
+        emailInput.sendKeys("varjan80@mail.ru");
         // password
         WebElement passwordInput = driver.findElement(By.cssSelector("[type='password']"));
         passwordInput.click();
         passwordInput.clear();
-        passwordInput.sendKeys("te$t$tuden");
+        passwordInput.sendKeys("te$t$tudent");
         // login button
         WebElement submitLoginButton = driver.findElement(By.cssSelector("button[type='submit']"));
         submitLoginButton.click();
@@ -52,18 +52,18 @@ public class LoginTests extends BaseTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://testpro.io/";
+        String url = "https://qa.koel.app/";
         driver.get(url);
         // email
         WebElement emailInput = driver.findElement(By.xpath("//input[@type='email']"));
         emailInput.click();
         emailInput.clear();
-        emailInput.sendKeys("demo@class.com");
+        emailInput.sendKeys("varjan80@mail.ru");
         // password
         WebElement passwordInput = driver.findElement(By.cssSelector("[type='password']"));
         passwordInput.click();
         passwordInput.clear();
-        passwordInput.sendKeys("te$t$tuden");
+        passwordInput.sendKeys("te$t$tudent");
         // login button
         WebElement submitLoginButton = driver.findElement(By.cssSelector("button[type='submit']"));
         submitLoginButton.click();
@@ -81,13 +81,13 @@ public class LoginTests extends BaseTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://testpro.io/";
+        String url = "https://qa.koel.app/";
         driver.get(url);
         // email
         WebElement emailInput = driver.findElement(By.xpath("//input[@type='email']"));
         emailInput.click();
         emailInput.clear();
-        emailInput.sendKeys("demo@class.com");
+        emailInput.sendKeys("varjan80@mail.ru");
         // password
         WebElement passwordInput = driver.findElement(By.cssSelector("[type='password']"));
         passwordInput.click();
